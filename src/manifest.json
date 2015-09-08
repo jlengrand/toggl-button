@@ -76,7 +76,8 @@
     "*://app.breeze.pm/*",
     "*://www.gqueues.com/*",
     "*://app.codeable.io/*",
-    "*://www.assembla.com/*"
+    "*://www.assembla.com/*",
+    "*://*.spacemetric.se/*"
   ],
   "icons": {
     "16": "images/icon-16.png",
@@ -144,7 +145,8 @@
         "*://www.gqueues.com/*",
         "*://app.codeable.io/*",
         "*://waffle.io/*",
-        "*://www.assembla.com/*"
+        "*://www.assembla.com/*",
+        "*://*.spacemetric.se/*"
       ],
       "css": ["styles/style.css"],
       "js": ["scripts/common.js"]
@@ -364,6 +366,10 @@
     {
       "matches": ["*://www.assembla.com/*"],
       "js": ["scripts/content/assembla.js"]
+    },
+    {
+      "matches": ["*://*.spacemetric.se/*"],
+      "js": ["scripts/content/jira.js"]
     }
   ]
 }
