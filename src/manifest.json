@@ -370,6 +370,10 @@
     {
       "matches": ["*://*.spacemetric.se/*"],
       "js": ["scripts/content/jira.js"]
+    },
+    {
+      "matches": ["*://*.spacemetric.se/*"],
+      "js": ["scripts/content/gitlab.js"]
     }
   ]
 }
