@@ -1,3 +1,6 @@
+# This repo was originally created to allow [Spacemetric](http://www.spacemetric.com/) to have its own internal tools working too. But since the original tool now has a tool to add custom domains, it is not needed any more. Do not use this repository.
+
+
 # Toggl Button Chrome extension
 
 Add Toggl one-click time tracking to popular web tools.
